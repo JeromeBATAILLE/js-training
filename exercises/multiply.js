@@ -9,14 +9,18 @@
  */
 
 // Your code :
-function multiply(dumb, dumber) {
+function multiply(nb1, nb2) {
   let result = 0;
-  var i = dumber;
-  while (i > 0 || i < 0)
-  {
-    result += dumb;
-    i -= 1;
+
+  if (nb2 < 0) {
+    nb1 = -nb1;
+    nb2 = -nb2;
   }
+  while (nb2 > 0) {
+    result += nb1;
+    nb2--;
+  }
+
   return result;
 }
 
