@@ -9,6 +9,16 @@
  */
 
 // Your code :
+function multiply(dumb, dumber) {
+  let result = 0;
+  var i = dumber;
+  while (i > 0 || i < 0)
+  {
+    result += dumb;
+    i -= 1;
+  }
+  return result;
+}
 
 //* Begin of tests
 const assert = require('assert')

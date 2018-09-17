@@ -5,6 +5,15 @@
  * and return the total
  *
  */
+ function total(recall) {
+   let somme = 0;
+   let i;
+   for (i = 0; i < recall.length; i++)
+   {
+     somme += recall[i];
+   }
+   return somme;
+ }
 
 
 //* Begin of tests

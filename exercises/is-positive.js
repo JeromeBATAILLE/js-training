@@ -8,7 +8,11 @@
  */
 
 // Your code:
+function isPositive(x) {
 
+  let maVariable = x>0?true:false;
+  return maVariable
+}
 
 //* Begin of tests
 const assert = require('assert')
