@@ -8,7 +8,9 @@
  */
 
 // Your code :
-
+function getLength(chain) {
+  return chain.length;
+}
 //* Begin of tests
 const assert = require('assert')
 
