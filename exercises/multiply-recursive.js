@@ -13,18 +13,16 @@
 function multiply(num1, num2) {
   let result = 0;
 
-  if (nb2 < 0) {
+  if (num2 < 0) {
     num1 = -num1;
     num2 = -num2;
   }
 
   if (num2 > 0) {
-    result += num1;
+    result = num1 + multiply(num1, num2-1);
   }
-  
 
-  return result = mutiply(num1, num2--);
-
+  return result;
 }
 //* Begin of tests
 const assert = require('assert')
